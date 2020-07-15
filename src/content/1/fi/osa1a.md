@@ -375,14 +375,14 @@ Juurielementin pakollisesta käytöstä on se seuraus, että sovelluksen DOM-puu
 
 ```js
 const App = () => {
-  const name = 'Pekka'
-  const age = 10
+  const nimi = 'Pekka'
+  const ika = 10
 
   return (
     <>
       <h1>Greetings</h1>
       <Hello name="Maya" age={26 + 10} />
-      <Hello name={name} age={age} />
+      <Hello name={nimi} age={ika} />
       <Footer />
     </>
   )
